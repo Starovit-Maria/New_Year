@@ -1,0 +1,262 @@
+@font-face {
+  font-display: swap; 
+  font-family: 'Rubik Bubbles';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/rubik-bubbles-v3-cyrillic_latin-regular.woff2') format('woff2');
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/poppins-v22-latin-regular.woff2') format('woff2');
+}
+.wrap{
+/*	для головних секцій section*/	
+    /*розташовує дочірні елементи в строчку*/
+    display: flex;
+	justify-content: center;
+	align-items: center;
+/*	Щоб картинка не повторювалася бо background робить повторення картинки*/	
+    background-repeat: no-repeat;
+	background-position: center;
+/*	Cover обить розширення картинки по всьому розміру блока*/	
+    background-size: cover;
+    background: #251819;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1030px;
+    color: #F3F2F2;
+}
+header{
+    display: flex;
+    align-items: flex-start;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 24px;
+
+}
+.container a:nth-of-type(){
+    background: #DC3845;
+}
+span{
+    font-family: 'Rubik Bubbles';
+    font-size: 16px;
+    font-weight: 400;
+}
+.group{
+    font-family: 'Rubik Bubbles';
+    font-size: 16px;
+    font-weight: 400;
+    width: 640px;
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    font-family: 'Rubik Bubbles';
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+a{
+    text-decoration: none;
+    color: #F3F2F2;
+}
+p{
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: 400;
+}
+.one{
+    font-family: 'Rubik Bubbles';
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px 56px;
+    border-radius: 64px;
+    background: #DC3845;
+}
+.section_header{
+    flex-direction: column;
+}
+.section_header div{
+    display: flex;
+    align-items: center;
+}
+.description{
+    flex-direction: column;
+    text-align: center;
+}
+.Santa{
+    margin-top: 88px;
+}
+.Vitsup{
+    margin-bottom: 52px;
+}
+.Vitsup{
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: 400;
+}
+h2{
+    font-family: 'Rubik Bubbles';
+    font-size: 24px;
+    font-weight: 400;
+    color: #F3F2F2;
+}
+.facts{
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    color: #F3F2F2;
+    margin-right: 46px;
+    margin-top: 26px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    margin-right: 4px;
+}
+.constructor{
+    display: flex;
+    justify-content: space-around;
+}
+.container-film{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-carousel{
+    margin: 50px auto;
+    width: 90%;
+}
+.carousel-control-prev-icon{
+    background-image: url("img/left.svg");
+}
+.carousel-control-next-icon{
+    background-image: url("img/right.svg");
+}
+.carousel-control-prev{
+    left: -110px;
+    align-items: center;
+}
+.carousel-control-next{
+    right: -80px;
+}
+.gift{
+    background: #2F2223;
+    border-radius: 12px;
+    width: 200px;
+    padding: 24px;
+    background-image: url(img/heart.png);
+    background-repeat: no-repeat;
+    background-position: 90% 8%;
+}
+.gift img{
+    display: block;
+    margin: 0 auto;
+}
+.grid_gift{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    max-width: 680px;
+    margin: 0 auto;
+}
+.grid_gift_h2{
+    margin-bottom: 44px;
+    text-align: center;
+    margin-top: 87px;
+}
+.playlist_block{
+    display: flex;
+}
+.marginn{
+    margin-right: 40px;
+}
+.checkbox_header{
+    display: flex;
+    margin: 0 auto;
+    width: 326px;
+    margin-bottom: 44px;
+}
+.checkbox_header img{
+    width: 48px;
+    height: 48px;
+}
+.checkboxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.container_new{
+    width: 1300px;
+    color: #F3F2F2;;
+    margin-top: 87px;
+}
+/*.form-check-input:checked{
+    background: red;
+}*/
+.container_haha{
+    height: 759px;
+}
+.lyst{
+    margin-top: 100px;
+}
+.form-check_1{
+    margin-right: 31px;
+}
+.form-check_3{
+    margin-right: 31px;
+}
+h3{
+    font-size: 44px;
+    margin-bottom: 24px;
+    font-family: 'Rubik Bubbles';
+    font-weight: 400;
+}
+.messege{
+    background: #DC3845;
+    padding: 16px 32px 16px 32px;
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 64px;
+}
+.send{
+    background: #2F2223;
+    border-radius: 32px;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.free{
+    margin-top: 30px;
+}
+.IN input{
+    padding: 18px 24px 18px 24px;
+    width: 264px;
+    border-radius: 64px;
+    background: #251819;
+    border: none;
+    color: #918889;
+}
+.B1{
+    margin-right: 101px;
+}
+.sisters{
+    background-image: url('img/Serafima.png'), url('img/Masha.png');
+    background-position: 7% 49%, 92% 0%;
+    background-repeat: no-repeat;
+    padding-bottom: 192px;
+}
